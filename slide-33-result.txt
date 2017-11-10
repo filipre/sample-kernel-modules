@@ -1,0 +1,3 @@
+rene@rene-VirtualBox:~/Development/os-report-modules$ less /var/log/syslog | grep 'KMALLOC_TEST'
+Nov 10 11:37:10 rene-VirtualBox kernel: [ 3442.547915] [KMALLOC_TEST]: Entering module.
+Nov 10 11:46:07 rene-VirtualBox kernel: [ 3442.548054] [KMALLOC_TEST]: could not allocate 8388608 bytes
