@@ -1,0 +1,35 @@
+rene@rene-VirtualBox:~/Development/os-report-modules$ less /var/log/syslog | grep 'PERCPU2'
+Nov 13 16:29:53 rene-VirtualBox kernel: [   37.117584] [PERCPU2]: Entering module.
+Nov 13 16:29:53 rene-VirtualBox kernel: [   37.117930] [PERCPU2]: cpu[1] = 1
+Nov 13 16:29:53 rene-VirtualBox kernel: [   37.118075] [PERCPU2]: cpu[1] = 2
+Nov 13 16:29:54 rene-VirtualBox kernel: [   37.118609] [PERCPU2]: cpu[0] = 1
+Nov 13 16:29:54 rene-VirtualBox kernel: [   37.626593] [PERCPU2]: cpu[1] = 3
+Nov 13 16:29:54 rene-VirtualBox kernel: [   37.626599] [PERCPU2]: cpu[0] = 2
+Nov 13 16:29:54 rene-VirtualBox kernel: [   37.626600] [PERCPU2]: cpu[1] = 4
+Nov 13 16:29:54 rene-VirtualBox kernel: [   38.139805] [PERCPU2]: cpu[1] = 5
+Nov 13 16:29:54 rene-VirtualBox kernel: [   38.139810] [PERCPU2]: cpu[1] = 6
+Nov 13 16:29:55 rene-VirtualBox kernel: [   38.139844] [PERCPU2]: cpu[0] = 3
+Nov 13 16:29:55 rene-VirtualBox kernel: [   38.653787] [PERCPU2]: cpu[0] = 4
+Nov 13 16:29:55 rene-VirtualBox kernel: [   38.653950] [PERCPU2]: cpu[1] = 7
+Nov 13 16:29:55 rene-VirtualBox kernel: [   38.653954] [PERCPU2]: cpu[1] = 8
+Nov 13 16:29:55 rene-VirtualBox kernel: [   39.163049] [PERCPU2]: cpu[1] = 9
+Nov 13 16:29:55 rene-VirtualBox kernel: [   39.163055] [PERCPU2]: cpu[1] = 10
+Nov 13 16:29:56 rene-VirtualBox kernel: [   39.163072] [PERCPU2]: cpu[0] = 5
+Nov 13 16:29:56 rene-VirtualBox kernel: [   39.674730] [PERCPU2]: cpu[1] = 11
+Nov 13 16:29:56 rene-VirtualBox kernel: [   39.674736] [PERCPU2]: cpu[1] = 12
+Nov 13 16:29:56 rene-VirtualBox kernel: [   39.674751] [PERCPU2]: cpu[0] = 6
+Nov 13 16:29:56 rene-VirtualBox kernel: [   40.187200] [PERCPU2]: cpu[0] = 7
+Nov 13 16:29:56 rene-VirtualBox kernel: [   40.187266] [PERCPU2]: cpu[1] = 13
+Nov 13 16:29:57 rene-VirtualBox kernel: [   40.187270] [PERCPU2]: cpu[1] = 14
+Nov 13 16:29:57 rene-VirtualBox kernel: [   40.701582] [PERCPU2]: cpu[1] = 15
+Nov 13 16:29:57 rene-VirtualBox kernel: [   40.701588] [PERCPU2]: cpu[1] = 16
+Nov 13 16:29:57 rene-VirtualBox kernel: [   40.701639] [PERCPU2]: cpu[0] = 8
+Nov 13 16:29:57 rene-VirtualBox kernel: [   41.214496] [PERCPU2]: cpu[0] = 9
+Nov 13 16:29:57 rene-VirtualBox kernel: [   41.214579] [PERCPU2]: cpu[1] = 17
+Nov 13 16:29:58 rene-VirtualBox kernel: [   41.214584] [PERCPU2]: cpu[1] = 18
+Nov 13 16:29:58 rene-VirtualBox kernel: [   41.722652] [PERCPU2]: cpu[0] = 10
+Nov 13 16:29:58 rene-VirtualBox kernel: [   41.724773] [PERCPU2]: cpu[1] = 19
+Nov 13 16:29:58 rene-VirtualBox kernel: [   41.724779] [PERCPU2]: cpu[1] = 20
+Nov 13 16:29:58 rene-VirtualBox kernel: [   42.234569] [PERCPU2]: cpu[0] = 11
+Nov 13 16:29:58 rene-VirtualBox kernel: [   42.234744] [PERCPU2]: cpu[1] = 21
+ 
