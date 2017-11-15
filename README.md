@@ -23,6 +23,12 @@ sudo insmod [your module.ko]
 ## How to read logs
 
 ```
+dmesg
+```
+
+or
+
+```
 less /var/log/syslog
 ```
 
@@ -31,5 +37,3 @@ less /var/log/syslog
 ```
 sudo rmmod [your module]
 ```
-
-
