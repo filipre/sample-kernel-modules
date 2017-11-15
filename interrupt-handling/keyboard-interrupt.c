@@ -13,7 +13,10 @@ unsigned int scancode;
 
 static void keyboard_tasklet_handler(unsigned long data)
 {
-	printk(PRINT_PREF "Key pressed: %x, %d", scancode, scancode);
+	if (scancode & 0x80)
+		printk(PRINT_PREF "Key released: %d", scancode);
+	else 
+		printk(PRINT_PREF "Key pressed: %d", scancode);
 }
 
 static DECLARE_TASKLET(keyboard_tasklet, keyboard_tasklet_handler, 0);
