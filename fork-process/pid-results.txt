@@ -1,0 +1,20 @@
+Child process PID: 1937
+Result of "cat /proc/1937/maps"
+00400000-00401000 r-xp 00000000 08:01 405016                             /home/rene/Development/sample-linux-modules/fork-process/pid
+00600000-00601000 r--p 00000000 08:01 405016                             /home/rene/Development/sample-linux-modules/fork-process/pid
+00601000-00602000 rw-p 00001000 08:01 405016                             /home/rene/Development/sample-linux-modules/fork-process/pid
+7fbbd0c35000-7fbbd0df5000 r-xp 00000000 08:01 137035                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbd0df5000-7fbbd0ff5000 ---p 001c0000 08:01 137035                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbd0ff5000-7fbbd0ff9000 r--p 001c0000 08:01 137035                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbd0ff9000-7fbbd0ffb000 rw-p 001c4000 08:01 137035                     /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbd0ffb000-7fbbd0fff000 rw-p 00000000 00:00 0 
+7fbbd0fff000-7fbbd1025000 r-xp 00000000 08:01 137007                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbd1206000-7fbbd1209000 rw-p 00000000 00:00 0 
+7fbbd1222000-7fbbd1224000 rw-p 00000000 00:00 0 
+7fbbd1224000-7fbbd1225000 r--p 00025000 08:01 137007                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbd1225000-7fbbd1226000 rw-p 00026000 08:01 137007                     /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbd1226000-7fbbd1227000 rw-p 00000000 00:00 0 
+7ffd2a31f000-7ffd2a340000 rw-p 00000000 00:00 0                          [stack]
+7ffd2a34d000-7ffd2a34f000 r--p 00000000 00:00 0                          [vvar]
+7ffd2a34f000-7ffd2a351000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
